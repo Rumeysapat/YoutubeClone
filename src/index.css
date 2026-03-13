@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+/* Tailwindde değişken tanımlama */
+@theme {
+  /* Varsayılan fontu değiştirelim */
+  --font-sans: 'Roboto', sans-serif;
+  /* Kendi renk tonlarını tanımla */
+  --color-grey: #3f3f3f;
+  --color-white: #ffffff;
+  --color-black: #0f0f0f;
+  --color-dark: #272727;
+}
+
+/* JSX Elementlerine varsayılan stiller verelim */
+@layer base {
+  /* Apply css dosyasında tailwind class'larını kullanmamızı sağlar */
+  button,
+  a {
+    @apply cursor-pointer;
+  }
+
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+/* Tailwind class'ları ile stillendirilmiş kendi class'larını oluşturabiliyoryuz */
+@layer components {
+  .icon {
+    @apply p-2 hover:bg-zinc-700 transition rounded-full text-xl;
+  }
+
+  .page {
+    @apply h-[calc(100vh-56px)] w-full flex-1 py-6 px-4;
+  }
+}
+
+/*.scrollbar stillendir*/
+
+*::-webkit-scrollbar {
+  background: #0f0f0f;
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #5b5b5b;
+}
