@@ -11,9 +11,14 @@ Uygulama modern **React component mimarisi**, **API veri çekme** ve **responsiv
 
 🎥 Proje Tanıtım Videosu
 
-https://github.com/Rumeysapat/YoutubeClone/assets
+# 🚀 Demo
 
+🎥 Proje Tanıtım Görselleri
 
+<p align="center">
+  <img src="https://github.com/Rumeysapat/YoutubeClone/blob/master/src/assets/y1.png" width="400"/>
+  <img src="https://github.com/Rumeysapat/YoutubeClone/blob/master/src/assets/y2.png" width="400"/>
+</p>
 
 ---
 
