@@ -10,6 +10,11 @@ Uygulama modern **React component mimarisi**, **API veri çekme** ve **responsiv
 # 🚀 Demo
 
 🎥 Proje Tanıtım Videosu
+<p align="center">
+  <a href="src/assets/youtubevideo_noaudio.mp4">
+    <img src="src/assets/y1.png" width="300"/>
+  </a>
+</p>
 
 # 🚀 Demo
 
